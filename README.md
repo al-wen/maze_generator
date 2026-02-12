@@ -53,4 +53,4 @@ Current feedback from multiple sources suggest to add a way to have different sh
 
 The tool currently does not work too well if rooms are share the same name. The tool currently only makes rectangular mazes.
 
-Also for some reason, the text input for room name keeps unfocusing when typing. This only happens in the github deployment and the cause is unkown.
+Also for some reason, the text input for room name may keep unfocusing when typing. This only happens in the github deployment on some computers and the cause currently is unkown.
