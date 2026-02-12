@@ -1,6 +1,6 @@
 # Maze Generator
 
-This tool generates a random maze with customizable parameters.
+This tool generates a random rectangular maze with adjustable parameters and custumizable rooms.
 
 ## Link to Tool
 
@@ -45,6 +45,10 @@ This tool generates a random maze with customizable parameters.
 <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/8a74f19a-7f07-4331-a519-bf0c41f47b91" />
 <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/8aeb1151-cd2f-4646-85b5-a564b8331a98" />
 
+## Feedback and Suggestions
+
+Current feedback from multiple sources suggest to add a way to have different shaped mazes or cells in the maze. There are also suggestions to add a direct way to copy or export the maze. 
+
 ## Limitations
 
-The tool currently does not work too well if rooms are share the same name.
+The tool currently does not work too well if rooms are share the same name. The tool currently only makes rectangular mazes.
