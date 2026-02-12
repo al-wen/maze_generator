@@ -48,10 +48,9 @@ function renderRoomTypesList() {
             const nameInput = document.createElement('input');
             nameInput.value = room.name;
             nameInput.className = 'room-type-name';
-            nameInput.addEventListener('input', e => {
-                room.name = e.target.value;
-                renderRoomTypesList();
-            });
+                nameInput.addEventListener('input', e => {
+                    room.name = e.target.value;
+                });
             row.appendChild(nameInput);
         } else {
             const nameSpan = document.createElement('span');
