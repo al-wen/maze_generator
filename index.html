@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DFS Maze Generator</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <h1 class="title">AL'S AMAZING MAZE GENERATOR</h1>
+  <div class="controls">
+    <div>
+      <label>Width (cells): <input id="width" type="number" min="5" max="200" value="30"></label>
+      <label>Height (cells): <input id="height" type="number" min="5" max="200" value="20"></label>
+    </div>
+    <div>
+      <label>Start X: <input id="startX" type="number" min="0" value="0"></label>
+      <label>Start Y: <input id="startY" type="number" min="0" value="0"></label>
+      <label>End X: <input id="endX" type="number" min="0" value="29"></label>
+      <label>End Y: <input id="endY" type="number" min="0" value="19"></label>
+    </div>
+    <div>
+      <label>Zoom: <input id="cellSize" type="range" min="4" max="80" value="30" step="1"></label>
+      <span id="cellSizeValue">30</span>
+    </div>
+    <div>
+      <label>Shortcut chance: <input id="shortcutChance" type="range" min="0" max="1" step="0.01" value="0"></label>
+      <span id="shortcutChanceValue">0</span>
+    </div>
+    <div class="buttons">
+      <button id="generate">Generate Maze</button>
+    </div>
+  </div>
+
+  <div id="paramsSummary" class="summary">Size: 30×20 • Cell: 20px • Start: (0,0) • End: (29,19)</div>
+
+
+  <canvas id="maze"></canvas>
+  <div id="cellInfo" style="text-align:center;margin-top:4px;font-size:14px;min-height:20px;"></div>
+
+  <div id="roomTypesSection" class="legend">
+    <h3>Room Types</h3>
+    <div id="roomTypesList"></div>
+    <button id="addRoomType">Add Room Type</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
