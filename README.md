@@ -11,7 +11,7 @@ This tool generates a random maze with customizable parameters.
   - Width and height of Maze
   - Start and end positions
   - Shortcut chance (adds extra paths)
-  - Custom room types that can be added and removed (name, color)
+  - Custom room types that can be added and removed (name, color, spawn rate)
 
 ## Example Outputs
 
