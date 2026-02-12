@@ -1,6 +1,6 @@
 # Maze Generator
 
-This tool generates a random rectangular maze with adjustable parameters and custumizable rooms.
+This tool generates a random rectangular maze with adjustable parameters and customizable rooms.
 
 ## Link to Tool
 
