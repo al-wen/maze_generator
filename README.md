@@ -2,6 +2,10 @@
 
 This tool generates a random maze with customizable parameters.
 
+## Link to Tool
+
+[Al's Amazing Maze Generator](https://github.com/al-wen/maze_generator)
+
 ## Adjustable Parameters
 
   - Width and height of Maze
