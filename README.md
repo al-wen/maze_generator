@@ -4,7 +4,7 @@ This tool generates a random rectangular maze with adjustable parameters and cus
 
 ## Link to Tool
 
-[Al's Amazing Maze Generator](https://github.com/al-wen/maze_generator)
+[Al's Amazing Maze Generator](al-wen.github.io/maze_generator/)
 
 ## Adjustable Parameters
 
