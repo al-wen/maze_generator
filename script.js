@@ -103,8 +103,16 @@ function renderRoomTypesList() {
 }
 
 document.getElementById('addRoomType').onclick = function() {
+    let baseName = 'custom';
+    let name = baseName;
+    let counter = 1;
+    const existingNames = roomTypes.map(r => r.name);
+    while (existingNames.includes(name)) {
+        name = baseName + counter;
+        counter++;
+    }
     roomTypes.push({
-        name: 'custom',
+        name: name,
         color: '#fbbf24',
         probability: 0.1,
         removable: true,
